@@ -1,0 +1,601 @@
+@media only screen and (min-width:765px) {
+    .menu-burger {
+        display: none;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    .header-tablet {
+        display: block;
+    }
+
+    .header-tablet nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        position: absolute;
+        right: 51px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 20px;
+        margin-top: unset;
+    }
+
+    .burger-menu-content-list a {
+        font-size: 16px;
+        height: 88px;
+        padding: 30px;
+        text-decoration: none;
+
+    }
+
+    .burger-menu-content-list a:hover {
+        text-decoration: unset;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero {
+        align-items: flex-start;
+    }
+
+    .hero-content {
+        margin-top: -590px;
+        margin-left: 54%;
+    }
+
+    .hero-image-tablet {
+        display: block;
+    }
+
+    .hero-content-title {
+        font-size: 43px;
+        width: 312px;
+        line-height: 62px;
+    }
+
+    .hero-content-title span {
+        font-size: 43px;
+    }
+
+    .hero-content-description {
+        width: 283px;
+    }
+
+    .experience-description-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+
+    .content-item {
+        width: 195px;
+    }
+
+    .experience-titel p {
+        font-size: 54px;
+        line-height: 76px;
+    }
+
+    .value {
+        flex-direction: unset;
+    }
+
+    .value-content {
+        padding: 40px;
+    }
+
+    .value-content-titel {
+        font-size: 43px;
+        line-height: 48px;
+    }
+
+    .skillset-list {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    }
+
+    .sponsors-wrapper {
+        display: none;
+    }
+
+    .sponsors-wrapper-tablet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sponsors-wrapper-tablet img {
+        width: 50%;
+    }
+
+    .about-me-top {
+        width: 38%;
+        font-size: 27px;
+    }
+
+    .about-me-list {
+        float: right;
+        width: 55%;
+        margin-top: -477px;
+    }
+
+    .photography-buttons {
+        margin-left: -20%;
+    }
+
+    .photography-button button {
+        width: 130px;
+    }
+
+    .pohography-content img {
+        width: 48%;
+    }
+
+    form {
+        float: right;
+        width: 47%;
+        margin-top: -242px;
+        margin-right: 7px;
+    }
+
+    .contact-titel {
+        font-size: 39px;
+    }
+
+    .contact-content {
+        width: 45%;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-tablet-logo {
+        display: block;
+    }
+
+    .social-media {
+        width: 62%;
+        margin-bottom: 12px
+    }
+
+    .footer-top {
+        margin-top: 44px;
+    }
+
+    .footer-list {
+        margin-left: 68%;
+        margin-top: -145px;
+    }
+
+    .footer-copyright {
+        width: 309px;
+    }
+
+    .projects-item-image {
+        display: none;
+    }
+
+    .projects-item-image-tablet {
+        display: block;
+    }
+
+    .instagram-bottom-image {
+        display: none;
+    }
+
+    .insagram-bottom-image-tablet {
+        display: block;
+    }
+
+    .instagram {
+        flex-direction: unset;
+    }
+
+    .instagram-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram-titel {
+        font-size: 54px;
+        margin-top: -140px;
+    }
+
+    .instagram-content a:nth-child(3) {
+        display: none;
+    }
+
+    .instagram-content-description {
+        width: 75%;
+    }
+
+    .more-tablet {
+        display: block;
+        margin-bottom: -135px;
+        margin-top: 140px;
+        color: gray;
+        text-decoration: none;
+        font-size: 15px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid currentColor;
+    }
+
+    .footer-list {
+        display: flex;
+        gap: 114px;
+        margin-left: 52%;
+        margin-top: -150px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+
+    .header {
+        z-index: 100;
+        background: linear-gradient(to right, black 38%, rgba(24, 24, 35, 1) 37%);
+        height: 70px;
+    }
+
+    header img {
+        margin-left: 60%;
+    }
+
+    .header-tablet nav ul {
+        right: 5%;
+    }
+
+    .hero-image-tablet {
+        display: none;
+    }
+
+    .hero-image-desktop {
+        display: block;
+        width: 52%;
+        margin-top: 108px;
+    }
+
+    .hero-content-title {
+        margin-top: 113px;
+        width: unset;
+        font-size: 5vw;
+        line-height: 114%;
+        font-weight: 500;
+    }
+
+    .hero-content-title span {
+        font-size: 5vw;
+    }
+
+    .hero-content-description {
+        width: unset;
+        margin-left: 7px;
+        font-size: 1.3vw;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 57%;
+        top: 0px;
+        right: 0;
+        margin-top: 74px;
+        margin-right: 41px;
+    }
+
+    .background-gray {
+        display: block;
+        width: 62%;
+        height: 94%;
+        background-color: rgba(24, 24, 35, 1);
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -100;
+    }
+
+    .experience-titel p {
+        width: 58%;
+        font-size: 3.8vw;
+        line-height: 123%;
+        font-weight: 300;
+    }
+
+    .content-item-titel {
+        font-size: 1.7vw
+    }
+
+    .content-item {
+        width: 94%;
+    }
+
+    .value-content-titel {
+        font-size: 3.8vw;
+    }
+
+    .value-content-description {
+        font-size: 1.5vw;
+    }
+
+    .more {
+        margin-top: 50px;
+        line-height: 153%;
+    }
+
+    .value-image {
+        display: none;
+    }
+
+    .value-image-desktop {
+        display: block;
+        width: 50%;
+    }
+
+    .skillset-description {
+        font-size: 1.2vw;
+        line-height: 157%;
+        width: 24%;
+    }
+
+    .skillset-list {
+        width: 68%;
+        grid-template-columns: repeat(auto-fit, minmax(302px, 1fr));
+        float: right;
+        margin-top: -258px;
+        margin-right: -5%;
+    }
+
+    .skillset-item {
+        width: 200px;
+    }
+
+    .skillset-item-content {
+        font-size: 1.2vw;
+        line-height: 157%;
+        width: 148%;
+    }
+
+    .sponsors-wrapper-tablet {
+        overflow-X: scroll;
+        flex-wrap: nowrap;
+    }
+
+    .sponsors-wrapper-tablet img {
+        width: 23%;
+    }
+
+    .sponsors-wrapper-tablet::-webkit-scrollbar {
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(82, 33, 230, 1);
+        border-radius: 15px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(96, 155, 255, 1);
+        border: solid 3px rgba(82, 33, 230, 1);
+        border-radius: 15px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: white;
+    }
+
+    .projects-item {
+        width: 49%;
+    }
+
+    .pojects-content {
+        width: 47%;
+    }
+
+    .projects-titel {
+        font-size: 1.5vw;
+        font-weight: 500;
+    }
+
+    .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 17px;
+    }
+
+    .projects-description {
+        font-size: 3vw;
+        line-height: 122%;
+    }
+
+    .projects-item:nth-child(2),
+    .projects-item:nth-child(4) {
+        margin-top: -224px;
+        height: 744px;
+    }
+
+    .work {
+        position: relative;
+    }
+
+    .more-desktop {
+        display: block;
+        position: absolute;
+        padding: 30px;
+        bottom: 129px;
+        right: 314px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 15px;
+        border: 1px solid rgba(82, 33, 230, 1);
+    }
+
+    .insagram-bottom-image-tablet {
+        display: none;
+    }
+
+    .instagram-bottom-image-desktop {
+        display: block;
+    }
+
+    .instagram-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 40px;
+        ;
+    }
+
+    .instagram-content-description {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .more-tablet {
+        display: none;
+    }
+
+    .instagram-content a:nth-child(3) {
+        display: block;
+        width: 159px;
+        font-size: 20px;
+        color: black;
+        padding: 3px;
+        text-decoration: none;
+        border-bottom: 2px solid gray;
+    }
+
+    .dribbble {
+        margin-bottom: 357px
+    }
+
+    .dribbble-bottom-image {
+        display: none;
+    }
+
+    .dribbble-bottom-image-desktop {
+        display: block;
+        margin: 0 auto;
+        width: 87%;
+        margin-top: 100px;
+    }
+
+    .dribble-contant-container {
+        width: 55%;
+        margin-left: 108px;
+    }
+
+    .more {
+        color: black;
+        text-decoration: none;
+        border-bottom: 2px solid gray;
+        padding-bottom: 5px;
+        width: 116px;
+    }
+
+    .about-me-top {
+        margin-top: -147px;
+    }
+
+    .about-me-image {
+        display: none;
+    }
+
+    .about-me-image-desktop {
+        display: block;
+        width: 100%;
+    }
+
+    .about-me-list {
+        margin-top: -337px;
+    }
+
+    .testimonials {
+        width: 31%;
+    }
+
+    .photography-titel {
+        font-size: 47px;
+    }
+
+    .photography-top-description {
+        width: 44%;
+    }
+
+    .photography-button {
+        margin-left: 17%;
+        justify-content: flex-start;
+    }
+
+    .photography-buttons {
+        gap: 22px;
+        display: flex;
+    }
+
+    .tab-wrapper-italy {
+        flex-wrap: nowrap;
+        margin-top: 23px;
+        width: 80%;
+    }
+
+    .tab-wrapper-australia {
+        flex-wrap: nowrap;
+        margin-top: 23px;
+        width: 80%;
+    }
+
+    .tab-wrapper-australia img:last-child {
+        display: none;
+    }
+
+    .tab-wrapper-india {
+        flex-wrap: nowrap;
+        margin-top: 23px;
+        width: 80%;
+    }
+
+    .tab-wrapper-brazil {
+        flex-wrap: nowrap;
+        margin-top: 23px;
+        width: 80%;
+    }
+
+    footer {
+        padding: unset;
+    }
+
+    .social-media img {
+        width: 4%;
+    }
+
+    .footer-list {
+        gap: 186px;
+        margin-left: 65%;
+        margin-top: -102px;
+    }
+
+    .footer-copyright {
+        width: 457px;
+        margin-bottom: 41px;
+    }
+
+    .focus {
+        background: rgba(82, 33, 230, 1);
+    }
+
+    .burger-menu-content-list a {
+        transition: unset;
+    }
+}
