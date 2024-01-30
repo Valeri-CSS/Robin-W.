@@ -23,9 +23,12 @@ Live Solution at (https://github.com/Valeri-CSS/Robin-W.-19)
 
 ### Screenshots
 
-Desktop ![Desktop Screenshot](https://github.com/Valeri-CSS/Robin-W.-19/assets/116646278/967ddeda-ef08-426d-a19f-9996fb183cbc)
+Desktop 
+
+![Desktop Screenshot](https://github.com/Valeri-CSS/Robin-W.-19/assets/116646278/967ddeda-ef08-426d-a19f-9996fb183cbc)
 
 Tablet and Mobile
+
 ![Tablet Screenshot](https://github.com/Valeri-CSS/Robin-W.-19/assets/116646278/9a7fa891-4710-4af9-8d6e-c46848b71eb5)
 ![Mobile Screenshot](https://github.com/Valeri-CSS/Robin-W.-19/assets/116646278/debfb091-3432-4b4a-b2ba-435d66a4d680)
 
