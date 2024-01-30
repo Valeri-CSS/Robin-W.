@@ -4,7 +4,7 @@ Outline
 
 - [Overview](#overview)
 - [Links](#links)
-- [screenshots](#screenshots)
+- [Screenshots](#screenshots)
 - [Built with](#built-with)
 - [What I learned](#what-I-learned)
 - [Author](#author)
