@@ -18,7 +18,7 @@ ENJOY )).
 
 Live Website at: (https://valeri-css.github.io/Robin-W.-19/)
 
-Live Solution at (https://github.com/Valeri-CSS/Robin-W.)
+Live Solution at (https://github.com/Valeri-CSS/Robin-W.-19)
 
 ### Build with
 
